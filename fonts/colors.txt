@@ -1,0 +1,2 @@
+buttons: #0483EE
+background: #040714
