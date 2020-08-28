@@ -58,6 +58,27 @@ button{
     background-color: #040814;
     color: white;
 }
+.offre{
+    text-align: center;
+    margin-top: -4rem;
+}
+.offre p{
+    margin-bottom: .5rem;
+    font-size: 9px;
+}
+.offre img{
+    width: 25%;
+}
+.offre hr{
+    background-color: white;
+    width: 80%;
+}
+.abonnement{
+    display: inline-grid;
+}
+.fleche img{
+    width: 20px;
+}
 
 
 
