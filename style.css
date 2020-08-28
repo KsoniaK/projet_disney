@@ -1,8 +1,149 @@
+/*MISE EN PLACE DE LA POLICE*/
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url("fonts/Avenir-Roman-12.woff");
+}
+/*ON UTILISE LA POLICE DANS LE BODY*/
+body {
+    font-family: "Avenir-Roman", serif;
+    background-color: #040814;
+}
+p{
+    text-align: center;
+    color: #7d7b7b;
+    font-size: 12px;
+    margin-bottom: 3rem;
+}
+h1,h2,h3{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+
+
 /* SMARTPHONE*/
 
-/* TABLETTE*/
-@media screen  and (min-width: 481px){
+/* ICI LE HEADER*/
+header{
+    border: 2px solid white;
 }
-/* ORDINATEUR*/
-@media screen and (min-width: 780px){
+.nav{
+    background-color:#040814!important ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+nav img{
+    border: 2px solid tomato;
+}
+.logo{
+    margin: 1rem;
+}
+button{
+    padding: 0;
+}
+.inscrire{
+    display: none;
+    margin: 1rem;
+}
+.inscrire a{
+    background-color: #040814;
+    color: white;
+}
+.identifier{
+    margin: 1rem;
+}
+.identifier a{
+    background-color: #040814;
+    color: white;
+}
+
+
+
+
+
+
+
+/*ICI LE MAIN*/
+main{
+    border: 2px solid palevioletred;
+    
+}
+.image_accueil img{
+    width: 100%;
+    height: 100%;
+}
+.image_accueil_ordi{
+    display: none;
+}
+.adaptable{
+    border: 2px solid goldenrod;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+.adaptable article ul li{
+    list-style: none;
+    text-align: center;
+    color: #7d7b7b;
+    font-size: 12px;
+}
+.adaptable article ul{
+    padding-left: 0;
+}
+.adaptable img{
+    width: 100%;
+}
+article{
+    width: 50%;
+}
+.divertissement{
+    border: 2px solid fuchsia;
+    margin: 1rem;
+}
+.divertissement img{
+    width: 100%;
+}
+.bouton{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ICI LE FOOTER*/
+footer{
+    border: 2px solid yellow;
+    margin: 1rem;
+}
+.logo_footer{
+    text-align: center;
+}
+.mentions{
+    display: flex;
+    justify-content: space-around;
+}
+.mentions p{
+    font-size: 8px;
+    margin-bottom: 1rem;
+}
+.mentions img{
+    width: 15px;
+}
+
+
+
+
+
+
+

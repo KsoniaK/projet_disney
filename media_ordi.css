@@ -1,8 +1,17 @@
 /* ORDINATEUR*/
 @media screen and (min-width: 780px){
+    /*ICI LE HEADER*/
+
+    /*ICI LE MAIN*/
+.image_accueil{
+    display: none;
+}
 
 
 
+
+    /*ICI LE FOOTER*/
 
     
+
 }
