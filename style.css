@@ -17,7 +17,11 @@ p{
 h1,h2,h3{
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    margin: 1rem;
+}
+h1{
+    font-weight: bold;
 }
 
 
@@ -42,6 +46,7 @@ nav img{
 }
 button{
     padding: 0;
+    border: none;
 }
 .inscrire{
     display: none;
@@ -70,11 +75,25 @@ button{
     width: 25%;
 }
 .offre hr{
-    background-color: white;
+    background-color: #7d7b7b;
     width: 80%;
+    height: .5px;
+}
+.p_offre{
+    margin: 1rem;
 }
 .abonnement{
     display: inline-grid;
+    justify-content: center;
+}
+.abonnement button{
+    width: 14rem;
+    height: 2rem;
+    background-color: #0072D2;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
 }
 .fleche img{
     width: 20px;
@@ -129,6 +148,11 @@ article{
 .bouton{
     text-align: center;
 }
+span{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
 
 
 
@@ -159,7 +183,7 @@ footer{
     margin-bottom: 1rem;
 }
 .mentions img{
-    width: 15px;
+    width: 12px;
 }
 
 
