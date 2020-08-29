@@ -1,17 +1,102 @@
 /* ORDINATEUR*/
 @media screen and (min-width: 780px){
     /*ICI LE HEADER*/
+.logo img{
+    width: 70px;
+    text-align: start;
+}
+.nav{
+    height: 4rem;
+}
+h2, h3{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
 
     /*ICI LE MAIN*/
+.logo_accueil{
+    text-align: start;
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+.logo_accueil img{
+    margin-left: 2rem;
+}
+.logo_accueil h1{
+    margin-left: 1.7rem;
+}
+.offre h1, h2, p{
+    text-align: start;
+}
+.divertissement{
+    display: flex;
+    align-items: center;
+}
+.divertissement:nth-child(2n+1){
+    flex-direction: row-reverse;
+}
+.divertissement img{
+    width: 50%;
+}
+.adaptable{
+    flex-wrap: nowrap;
+}
+.offre{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fleche{
+    display: none;
+}
+.banderole img{
+    width: 90%;
+    margin: 2rem;
+}
+.contenu{
+    margin: 5rem;
+}
+.contenu p{
+    text-align: start;
+}
+.banderole{
+    display: block;
+}
 .image_accueil{
     display: none;
 }
-
+.image_accueil_ordi{
+    display: block;
+}
+.image_accueil_ordi img{
+    width: 100%;
+}
+.les_abonnements{
+    display: flex;
+}
+hr{
+    display: none;
+}
+.abonnement button{
+    width: 11rem;
+}
+.p_offre{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.titre_adaptable h2{
+    text-align: center;
+}
 
 
 
     /*ICI LE FOOTER*/
 
-    
+.logo_footer img{
+    margin-bottom: 1rem;
+}
+.mentions p{
+    font-size: 10px;
+}
 
 }

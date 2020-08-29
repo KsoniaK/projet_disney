@@ -44,6 +44,9 @@ nav img{
 .logo{
     margin: 1rem;
 }
+.logo img{
+    width: 55px;
+}
 button{
     padding: 0;
     border: none;
@@ -65,7 +68,6 @@ button{
 }
 .offre{
     text-align: center;
-    margin-top: -4rem;
 }
 .offre p{
     margin-bottom: .5rem;
@@ -97,6 +99,12 @@ button{
 }
 .fleche img{
     width: 20px;
+}
+.logo_footer img{
+    width: 70px;
+}
+.banderole{
+    display: none;
 }
 
 
@@ -166,6 +174,7 @@ span{
 
 
 
+
 /*ICI LE FOOTER*/
 footer{
     border: 2px solid yellow;
@@ -177,9 +186,10 @@ footer{
 .mentions{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .mentions p{
-    font-size: 8px;
+    font-size: 7px;
     margin-bottom: 1rem;
 }
 .mentions img{
