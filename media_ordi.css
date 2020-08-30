@@ -1,20 +1,45 @@
 /* ORDINATEUR*/
 @media screen and (min-width: 780px){
-    /*ICI LE HEADER*/
+
+/*------------------------------------------------------------------------------------------------------------------>
+
+
+/*ICI LE HEADER*/
+
 .logo img{
     width: 70px;
     text-align: start;
 }
-.nav{
+#nav{
     height: 4rem;
 }
-h2, h3{
+h1{
+    font-size: 35px;
+    margin: 1rem;
+}
+h2,h3{
+    font-size: 30px;
     margin: 0;
     margin-bottom: 1rem;
 }
+p{
+    font-size: 15px;
+
+}
+.inscrire{
+    display: initial;
+}
+.inscrire a{
+    background-color: #0072D2;
+    padding: .5rem;
+    border-radius: 3px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------>
 
 
-    /*ICI LE MAIN*/
+/*ICI LE MAIN*/
+
 .logo_accueil{
     text-align: start;
     margin-top: 5rem;
@@ -28,6 +53,9 @@ h2, h3{
 }
 .offre h1, h2, p{
     text-align: start;
+}
+.titre_adaptable h2{
+    margin-top: 5rem;
 }
 .divertissement{
     display: flex;
@@ -89,14 +117,24 @@ hr{
 }
 
 
+/*------------------------------------------------------------------------------------------------------------------>
 
-    /*ICI LE FOOTER*/
+/*ICI LE FOOTER*/
 
+.logo_footer{
+    margin-top: 4rem;
+}
 .logo_footer img{
     margin-bottom: 1rem;
 }
 .mentions p{
     font-size: 10px;
+}
+.mentions p a{
+    color: #7d7b7b;
+}
+#nav_bas_page{
+    display: none;
 }
 
 }
