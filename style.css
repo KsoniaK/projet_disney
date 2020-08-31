@@ -17,7 +17,6 @@ p{
 h1{
     font-size: 20px;
     font-weight: bold;
-    margin: 1rem;
     color: white;
 }
 h2,h3{
@@ -32,16 +31,20 @@ h2,h3{
 
 /* SMARTPHONE*/
 
+
+
 /* ICI LE HEADER*/
+
 #nav{
     background-color:#040814!important ;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: -50px;
+    top: -68px;
     width: 100%;
-    transition: top 0.3s; /* EFFET TRANSITOIRE */
+    transition: top 0.3s; /* EFFET TRANSITOIRE: APPARITION DE LA NAV */
+    z-index: 2;
 }
 .logo{
     margin: 1rem;
@@ -60,6 +63,7 @@ button{
 .inscrire a{
     background-color: #040814;
     color: white;
+    text-decoration: none;
 }
 .identifier{
     margin: 1rem;
@@ -67,6 +71,7 @@ button{
 .identifier a{
     background-color: #040814;
     color: white;
+    text-decoration: none;
 }
 
 /*------------------------------------------------------------------------------------------------------------------>
@@ -88,10 +93,10 @@ button{
 .offre hr{
     background-color: #7d7b7b;
     width: 80%;
-    height: .5px;
+    opacity: .5;
 }
 .p_offre{
-    margin: 1rem;
+    margin-top: 1rem;
 }
 .abonnement{
     display: inline-grid;
@@ -108,9 +113,13 @@ button{
 }
 .fleche img{
     width: 20px;
+    margin: 2rem;
 }
 .logo_footer img{
     width: 70px;
+}
+.logo_accueil{
+    margin-top: -4rem;
 }
 .banderole{
     display: none;
@@ -132,6 +141,7 @@ button{
     text-align: center;
     color: #7d7b7b;
     font-size: 12px;
+    margin: .5rem;
 }
 .adaptable article ul{
     padding-left: 0;
@@ -163,6 +173,7 @@ span{
 
 
 /*ICI LE FOOTER*/
+
 footer{
     margin: 1rem;
 }
@@ -180,14 +191,14 @@ footer{
 }
 .mentions p a{
     color: #7d7b7b;
+    text-decoration: none;
 }
 .mentions img{
-    width: 12px;
+    width: 10px;
 }
 #nav_bas_page{
     text-align: center;
-    background-color:#040814;
-   /* opacity: .5;*/
+    background-color: rgba(4,8,20,0.5); /*LE RGBA NOUS PERMET DE METTRE L'ELEMENT EN TRANSPARENCE SANS AVOIR A METTRE UNE OPACITE, AINSI, LES ENFANTS N'HERITENT PAS DE L'OPACITE (ICI LE BOUTON)*/
     width: 100%;
     height: 3.5rem;
     position: fixed;
