@@ -23,10 +23,10 @@ h2,h3{
     margin: 0;
     margin-bottom: 1rem;
 }
-p{
+/* p{
     font-size: 15px;
 
-}
+} */
 .inscrire{
     display: initial;
 }
@@ -50,10 +50,14 @@ p{
     margin-top: 10rem;
     margin-left: 4rem;
     position: absolute;
-    width: 50%;
+    width: 52%;
 }
 .offre h1, h2, p{
     text-align: start;
+}
+.offre p{
+    padding-left: 0rem!important;
+    padding-right: 0rem!important;
 }
 .titre_adaptable h2{
     margin-top: 5rem;
@@ -79,7 +83,7 @@ p{
 }
 .banderole img{
     width: 90%;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 .contenu{
     margin: 5rem;
@@ -100,17 +104,25 @@ p{
 .image_accueil_ordi img{
       width: 100%; 
 }
+.article{
+    width: 50%;
+}
 .les_abonnements{
     display: flex;
 }
 hr{
     display: none;
 }
-.abonnement{
+/* .abonnement{
     margin-right: 10rem;
+} */
+.abonnement{
+    justify-content: start;
 }
 .abonnement button{
     width: 11rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
 }
 .p_offre{
     margin-top: 1rem;
@@ -134,7 +146,7 @@ hr{
     margin-bottom: 1rem;
 }
 .mentions p{
-    font-size: 10px;
+    font-size: 14px;
 }
 .mentions p a{
     color: #7d7b7b;
